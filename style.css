@@ -1,26 +1,70 @@
-h1 {
-    font-size: 50px;
-    color: purple;
-    text-align: center;
+* {
+  box-sizing: border-box;
 }
 
-h2 {
-    font-size: 35px;
-    margin-left: 75px;
-    margin-top: 50px;
-    color: black;
+.header {
+  font-size: 60px;
+  color: purple;
+  text-align: center;
+  font-weight: 800;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 ul,
-ol,
-p {
-    font-size: 25px;
-    margin-left: 50px;
+ol {
+  font-size: 18px;
+  text-align: left;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
 }
 
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 50px;
+.image {
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+
+.image-index {
+  width: 500px;
+}
+
+.image-applejack {
+  width: 600px;
+}
+
+.image-awesomepasta {
+  width: 450px;
+}
+
+.image-cookies {
+  width: 430px;
+}
+
+.section {
+  font-size: 35px;
+  color: black;
+  font-weight: 600;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  width: 600px;
+}
+
+.para {
+  font-size: 18px;
+  width: 600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.return {
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
